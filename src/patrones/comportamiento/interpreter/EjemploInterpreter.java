@@ -4,7 +4,6 @@
  */
 package patrones.comportamiento.interpreter;
 
-import patrones.comportamiento.strategy.*;
 import patrones.Ejemplo;
 
 /**

@@ -8,8 +8,14 @@ import java.util.Scanner;
 import patrones.comportamiento.chainofresposability.EjemploChainOfResponsability;
 import patrones.comportamiento.command.EjemploCommand;
 import patrones.comportamiento.interpreter.EjemploInterpreter;
+import patrones.comportamiento.iterator.EjemploIterator;
+import patrones.comportamiento.mediator.EjemploMediator;
+import patrones.comportamiento.memento.EjemploMemento;
+import patrones.comportamiento.observer.EjemploObserver;
+import patrones.comportamiento.state.EjemploState;
 import patrones.comportamiento.strategy.EjemploStrategy;
 import patrones.comportamiento.templatemethod.EjemploTemplateMethod;
+import patrones.comportamiento.visitor.EjemploVisitor;
 import patrones.creacionales.abstractfactory.EjemploAbstractFactory;
 import patrones.creacionales.builder.EjemploBuilder;
 import patrones.creacionales.factorymethod.EjemploFactoryMethod;
@@ -43,6 +49,7 @@ public class Principal {
         String patron = "";
 
         switch (opcion) {
+            //Creacionales
             case 0:
                 patron = "Singleton";
                 ejemplo = new EjemploSingleton();
@@ -67,6 +74,7 @@ public class Principal {
                 patron = "Builder";
                 ejemplo = new EjemploBuilder();
                 break;
+            //Estructurales
             case 6:
                 patron = "Facade";
                 ejemplo = new EjemploFacade();
@@ -95,6 +103,7 @@ public class Principal {
                 patron = "Flyweight";
                 ejemplo = new EjemploFlyweight();
                 break;
+            //comportamiento
             case 13:
                 patron = "Template Method";
                 ejemplo = new EjemploTemplateMethod();
@@ -114,12 +123,36 @@ public class Principal {
             case 17:
                 patron = "Command";
                 ejemplo = new EjemploCommand();
-                break;   
+                break;
+            //no implementados
+            case 18:
+                patron = "Visitor";
+                ejemplo = new EjemploVisitor();
+                break;
+            case 19:
+                patron = "State";
+                ejemplo = new EjemploState();
+                break;
+            case 20:
+                patron = "Observer";
+                ejemplo = new EjemploObserver();
+                break;
+            case 21:
+                patron = "Memento";
+                ejemplo = new EjemploMemento();
+                break;
+            case 22:
+                patron = "Mediator";
+                ejemplo = new EjemploMediator();
+                break;
+            case 23:
+                patron = "Iteraor";
+                ejemplo = new EjemploIterator();
+                break;
         }
 
         System.out.println("Patron: '" + patron + "'");
         ejemplo.operacion();
-
 
     }
 }
