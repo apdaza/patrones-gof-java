@@ -1,7 +1,7 @@
 # Patrones de Diseño
 ## Un primer acercamiento - generalidades
 
-    "Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice" [Christopher Alexander].
+*"Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice"* [Christopher Alexander].
 
 ## Introducción
 
@@ -166,11 +166,9 @@ Los patrones de comportamiento estudian las relaciones entre llamadas entre los 
 
 *Daza Corredor, Alejandro Paolo*
 
-- *Ingeniero de Sistemas, egresado de la Universidad Distrital Francisco José de Caldas*
-- *Especialista de Ingeniería de Software de la Universidad Distrital Francisco José de Caldas.*
-- *Magister en ingeniería y dirección de sitios web de la Universidad Internacional de la Rioja*
+- Ingeniero de Sistemas, egresado de la Universidad Distrital Francisco José de Caldas
+- Especialista de Ingeniería de Software de la Universidad Distrital Francisco José de Caldas.
+- Magister en ingeniería y dirección de sitios web de la Universidad Internacional de la Rioja
 
-- *Docente del proyecto curricular de Ingeniería de Sistemas en el área de programación de la Universidad Distrital Francisco José de Caldas*
-- *Docente de la especialización en Ingeniería de Software de la Universidad Distrital Francisco José de Caldas* 
-
-    e-mail: apdaza@gmail.com
+- Docente del proyecto curricular de Ingeniería de Sistemas en el área de programación de la Universidad Distrital Francisco José de Caldas
+- Docente de la especialización en Ingeniería de Software de la Universidad Distrital Francisco José de Caldas
