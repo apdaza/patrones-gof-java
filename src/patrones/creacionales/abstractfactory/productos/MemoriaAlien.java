@@ -8,11 +8,10 @@ package patrones.creacionales.abstractfactory.productos;
  *
  * @author chamo
  */
-public class BoardAlien implements Board{
+public class MemoriaAlien implements Memoria{
 
     @Override
     public String operacion() {
-        return "creando board compatible Alien";
+        return "creando memoria compatible Alien";
     }
-    
 }

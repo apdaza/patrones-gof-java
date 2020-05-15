@@ -8,6 +8,7 @@ import java.util.Scanner;
 import patrones.Ejemplo;
 import patrones.creacionales.abstractfactory.fabricas.FabricaAbstracta;
 import patrones.creacionales.abstractfactory.fabricas.FabricaAmd;
+import patrones.creacionales.abstractfactory.fabricas.FabricaAlien;
 import patrones.creacionales.abstractfactory.fabricas.FabricaIntel;
 import patrones.creacionales.abstractfactory.productos.Board;
 import patrones.creacionales.abstractfactory.productos.Memoria;
@@ -41,6 +42,9 @@ public class EjemploAbstractFactory implements Ejemplo {
                 break;
             case 2:
                 fabrica = new FabricaIntel();
+                break;
+            case 3:
+                fabrica = new FabricaAlien();
                 break;
         }
 
