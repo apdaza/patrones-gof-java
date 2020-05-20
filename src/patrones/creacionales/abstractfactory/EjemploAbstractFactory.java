@@ -32,9 +32,9 @@ public class EjemploAbstractFactory implements Ejemplo {
         escaner = new Scanner(System.in);
 
         do {
-            System.out.println("Ingrese 1 para AMD o 2 para Intel");
+            System.out.println("Ingrese 1 para AMD o 2 para Intel o 3 para Alien");
             opcion = escaner.nextInt();
-        } while (opcion != 1 && opcion != 2);
+        } while (opcion != 1 && opcion != 2 && opcion != 3);
 
         switch (opcion) {
             case 1:

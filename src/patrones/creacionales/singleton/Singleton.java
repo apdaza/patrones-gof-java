@@ -11,8 +11,10 @@ package patrones.creacionales.singleton;
 public class Singleton {
 
     private static Singleton instancia;
+    private int valor;
 
     private Singleton() {
+        valor = 0;
     }
 
     public static Singleton getInstancia() {
@@ -21,4 +23,14 @@ public class Singleton {
         }
         return instancia;
     }
+
+    public int getValor() {
+        return valor;
+    }
+
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+    
+    
 }

@@ -19,7 +19,16 @@ public class EjemploSingleton implements Ejemplo{
         objetoUno = Singleton.getInstancia();
         objetoDos = Singleton.getInstancia();
         
+        System.out.print("Comparando objetoUno == objeto2 -> ");
         System.out.println(objetoDos.equals(objetoUno));
+        
+        objetoUno.setValor(10);
+        
+        System.out.println("Valor de los objetos = " + String.valueOf(objetoDos.getValor()));
+        
+        objetoDos.setValor(100);
+        
+        System.out.println("Valor de los objetos = " + String.valueOf(objetoUno.getValor()));
     }
     
 }
