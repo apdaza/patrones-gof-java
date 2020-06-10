@@ -29,5 +29,9 @@ public class EjemploPrototype implements Ejemplo {
         for (int i = 0; i <= 7; i++) {
             System.out.println(animalFarm[i].helloAnimal());
         }
+        animalFarm[4].changeOwner("Miguel");
+        for (int i = 0; i <= 7; i++) {
+            System.out.println(animalFarm[i].helloAnimal());
+        }
     }
 }

@@ -3,6 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/builder/EjemploBuilder.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/prototype/EjemploPrototype.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/prototype/prototipos/Owner.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/Principal.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/builder/CundinamarcaTour.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/builder/Agencia.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/prototype/prototipos/Animal.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/builder/BuguieTour.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/builder/ConstructorTour.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/builder/Tour.java</file>
+            <file>file:/C:/dev/patrones-gof-java/src/patrones/creacionales/prototype/fabrica/AnimalCreator.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -13,7 +13,19 @@ public class Animal implements Cloneable {
     private String description;
     private int numberOfLegs;
     private String name;
+    private Owner owner;
 
+    public void setOwner(Owner owner) {
+        this.owner = owner;
+    }
+
+    public Owner getOwner() {
+        return owner;
+    }
+    
+    public void changeOwner(String name){
+        this.owner.setName(name);
+    }
     public String getDescription() {
         return description;
     }
@@ -46,6 +58,7 @@ public class Animal implements Cloneable {
             clonedAnimal.setDescription(description);
             clonedAnimal.setNumberOfLegs(numberOfLegs);
             clonedAnimal.setName(name);
+            clonedAnimal.setOwner(new Owner(owner.getName()));
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         } // catch	
@@ -54,6 +67,6 @@ public class Animal implements Cloneable {
 
     public String helloAnimal() {
         return "hi i am a " + getName() + " and i have " + getNumberOfLegs()
-                + " legs";
+                + " legs, prpperty of: " + owner.getName();
     }
 }

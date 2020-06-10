@@ -16,7 +16,7 @@ public class EjemploBuilder implements Ejemplo{
     @Override
     public void operacion() {
         Agencia agencia = new Agencia();
-        agencia.setConstructor(new BuguieTour());
+        agencia.setConstructor(new CundinamarcaTour());
         agencia.construirTour();
         
         Tour tour = agencia.getTour();

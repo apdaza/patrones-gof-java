@@ -7,6 +7,7 @@ package patrones.creacionales.prototype.fabrica;
 import patrones.creacionales.prototype.prototipos.Sheep;
 import patrones.creacionales.prototype.prototipos.Chicken;
 import patrones.creacionales.prototype.prototipos.Animal;
+import patrones.creacionales.prototype.prototipos.Owner;
 
 /**
  *
@@ -20,10 +21,12 @@ public class AnimalCreator {
         chicken = new Chicken();
         sheep = new Sheep();
         
+        chicken.setOwner(new Owner("Juan"));
         chicken.setDescription("a litle chicken");
         chicken.setName("chicken");
         chicken.setNumberOfLegs(2);
         
+        sheep.setOwner(new Owner("Juan"));
         sheep.setDescription("a litle sheep");
         sheep.setName("sheep");
         sheep.setNumberOfLegs(4);

@@ -23,6 +23,11 @@ public class EjemploAdapter implements Ejemplo{
         Guitarra eaGuitarra = new GuitarraElectroAcustica();
         eaGuitarra.onGuitar();
         eaGuitarra.offGuitar();
+
+        System.out.println("Guitarra Electroacustica 2");
+        Guitarra2 eaGuitarra2 = new GuitarraElectroAcustica2();
+        eaGuitarra2.onGuitar();
+        eaGuitarra2.offGuitar();
     }
     
 }
