@@ -10,6 +10,6 @@ package patrones.comportamiento.command;
  */
 public interface Command {
 
-    public void execute();
+    public void execute(Receiver r);
     
 }

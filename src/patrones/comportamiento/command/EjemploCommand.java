@@ -14,24 +14,25 @@ import patrones.Ejemplo;
  * @author chamo
  */
 public class EjemploCommand implements Ejemplo {
+    static Receiver receiver = new Receiver();
 
     @Override
     public void operacion() {
-        List queue = produceRequests();
+        final List queue = produceRequests();
         workOffRequests(queue);
     }
 
     public static List produceRequests() {
-        List queue = new ArrayList();
+        final List queue = new ArrayList();
         queue.add(new DomesticEngineer());
         queue.add(new Politician());
         queue.add(new Programmer());
         return queue;
     }
 
-    public static void workOffRequests(List queue) {
-        for (Iterator it = queue.iterator(); it.hasNext();) {
-            ((Command) it.next()).execute();
+    public static void workOffRequests(final List queue) {
+        for (final Iterator it = queue.iterator(); it.hasNext();) {
+            ((Command) it.next()).execute(receiver);
         }
     }
 }

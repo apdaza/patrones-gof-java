@@ -20,7 +20,8 @@ public class EjemploDecorator implements Ejemplo{
         System.out.println(wrapper.doThis());
         Component wrapper2 = new WrapperUno(wrapper);
         System.out.println(wrapper2.doThis());
-       
+        Component wrapperborde = new WrapperBorde(wrapper2);
+        System.out.println(wrapperborde.doThis());
     }
     
 }

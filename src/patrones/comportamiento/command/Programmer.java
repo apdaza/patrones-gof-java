@@ -10,7 +10,7 @@ package patrones.comportamiento.command;
  */
 public class Programmer implements Command {
 
-    public void execute() {
-        System.out.println("sell the bugs, charge extra for the fixes");
+    public void execute(Receiver r) {
+        r.showMessage("sell the bugs, charge extra for the fixes");
     }
 }

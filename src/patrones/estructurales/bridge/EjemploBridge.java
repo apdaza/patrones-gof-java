@@ -18,6 +18,13 @@ public class EjemploBridge implements Ejemplo{
         abstraction.operation();
         abstraction = new AbstractionOne("prueba", new ImplementorTwo());
         abstraction.operation();
+
+        System.out.println("nuevo cliente que requiere dos operaciones");
+        ExtendedAbstraction abstraction2 = new ExtendedAbstractionOne("cliente nuevo", new ExtendedImplementorOne());
+        abstraction2.operation();
+        abstraction2.operation2();
+
+
     }
     
 }

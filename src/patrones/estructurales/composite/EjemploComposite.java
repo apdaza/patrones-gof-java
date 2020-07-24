@@ -21,6 +21,7 @@ public class EjemploComposite implements Ejemplo{
         total.addPart(new Simple("Parte 3"));
         Composite total2 = new Composite("Compuesto 2");
         total2.addPart(total);
+        total2.addPart(new Simple("Parte 4"));
         System.out.println(total2.operation());
         
        
