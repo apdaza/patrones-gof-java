@@ -15,6 +15,15 @@ public class EjemploMemento implements Ejemplo {
 
     @Override
     public void operacion() {
-        System.out.println("Ejemplo no implementado");
+        
+        Originator creador = new Originator("Pedro", "Gomez");
+        Caretaker vigilante= new Caretaker();
+        vigilante.setMemento( creador.createMemento() );
+        System.out.println("Nombre completo: " + creador.getNombre() + " " + creador.getApellidos());
+        creador.setNombre("Juan");
+        creador.setApellidos("Baurte");
+        System.out.println("Nombre completo: " + creador.getNombre() + " " + creador.getApellidos());
+        creador.setMemento( vigilante.getMemento() );
+        System.out.println("Nombre completo: " + creador.getNombre() + " " + creador.getApellidos());
     }
 }
