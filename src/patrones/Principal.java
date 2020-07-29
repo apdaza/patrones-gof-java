@@ -39,7 +39,7 @@ public class Principal {
     public static void main(String[] args) {
         Ejemplo ejemplo = null;
         int opcion = 0;
-        int maxOpc = 17;
+        int maxOpc = 23;
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("Ingrese un numero entre 0 y " + maxOpc
