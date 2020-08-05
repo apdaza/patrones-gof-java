@@ -11,9 +11,14 @@ package patrones.comportamiento.templatemethod;
 public abstract class Casa {
     
     public void construirCasa(){
+        limpiarTerreno();
         crearBases();
         crearParedes();
         crearTecho();
+    }
+
+    public void limpiarTerreno() {
+        System.out.println("Limpiando el terreno para construir la casa");
     }
     
     public abstract void crearBases();

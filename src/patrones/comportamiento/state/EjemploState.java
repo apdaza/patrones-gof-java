@@ -4,7 +4,6 @@
  */
 package patrones.comportamiento.state;
 
-import patrones.comportamiento.iterator.*;
 import patrones.Ejemplo;
 
 /**
@@ -15,6 +14,12 @@ public class EjemploState implements Ejemplo {
 
     @Override
     public void operacion() {
-        System.out.println("Ejemplo no implementado");
+        Semaforo objSemaforo = new Semaforo();
+        
+        objSemaforo.mostrar();
+        objSemaforo.setEstado( new EstadoAmarillo() );
+        objSemaforo.mostrar();
+        objSemaforo.setEstado( new EstadoRojo() );
+        objSemaforo.mostrar();
     }
 }

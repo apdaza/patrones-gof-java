@@ -124,7 +124,7 @@ public class Principal {
                 patron = "Command";
                 ejemplo = new EjemploCommand();
                 break;
-            //no implementados
+            
             case 18:
                 patron = "Visitor";
                 ejemplo = new EjemploVisitor();
