@@ -1,0 +1,6 @@
+projectKey=patrones-gof
+serverUrl=http://localhost:9000
+serverVersion=8.5.1.38104
+dashboardUrl=http://localhost:9000/dashboard?id=patrones-gof
+ceTaskId=AXX3lXuVOSVsRsjLe7bI
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXX3lXuVOSVsRsjLe7bI
